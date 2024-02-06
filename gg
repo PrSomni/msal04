@@ -1,0 +1,13 @@
+# server
+server.port=9998
+
+# hibernate
+spring.jpa.hibernate.ddl_auto=update
+
+# H2 Database
+spring.datasource.url=jdbc:h2:mem:ref_produit_db
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=gdpc_marie
+spring.datasource.password=motdepasse
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.h2.console.enabled=true
